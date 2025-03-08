@@ -4,7 +4,7 @@
 // API endpoint for XML requests (update with the actual endpoint)
 String TRAFFIC_URL = "https://api.trafikinfo.trafikverket.se/v2/datex.xml"; // Replace with the actual endpoint for the XML request
 
-String API_KEY = "238ba050d0534dbc9300786c29b87302";
+String API_KEY = "";
 // Construct the XML request
 String xmlRequest = "<REQUEST>" +
                     "<LOGIN authenticationkey=\"" + API_KEY + "\"/>" +
